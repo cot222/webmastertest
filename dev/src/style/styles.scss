@@ -1,0 +1,29 @@
+@import "main.scss";
+@import "fonts.scss";
+@import "var.scss";
+@import "media.scss";
+
+@import "header/header.scss";
+@import "header-nav/header-nav.scss";
+//all titles
+@import "title/title.scss";
+//main title(Анкета)
+@import "title-block/title-block.scss";
+//all icons
+@import "icon-block/icon-block.scss";
+//input for info
+@import "info-field/info-field.scss";
+//personal block
+@import "personal/personal.scss";
+//exprerience block
+@import "experience/experience.scss";
+//all check
+@import "check/check.scss";
+//javascript block
+@import "javascript/javascript.scss";
+//skill-range 
+@import "skill-range/skill-range.scss";
+//about-block 
+@import "about/about.scss";
+//submit btn
+@import "submit-btn/submit-btn.scss";

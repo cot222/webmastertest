@@ -1,0 +1,12 @@
+.skill-range {
+    position: relative;
+    height: 13px;
+    margin-bottom: 110px;
+    background: linear-gradient(90deg, #CCB1F1 0%, #435993 100%); 
+    
+    @import "__over/skill-range__over.scss";
+    @import "__block/skill-range__block.scss";
+    @import "__steps/skill-range__steps.scss";
+    @import "__hover/skill-range__hover.scss";
+    @import "__bars/skill-range__bars.scss";
+}

@@ -1,0 +1,16 @@
+.header-nav__a {
+    font-size: $font-14;
+    color: $color-blue;
+    text-decoration: none;
+    font-family: Roboto-Light;
+    transition: .5s;
+    
+    &:hover {
+        color: $color-black;
+        transition: .5s;
+    }
+
+    &.header-nav__a_active {
+        color: $color-black;
+    }
+}

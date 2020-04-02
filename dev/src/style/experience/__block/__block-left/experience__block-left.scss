@@ -1,0 +1,5 @@
+.experience__block-left {
+    @include phone-size {
+        margin-bottom: 17px;
+    }
+}

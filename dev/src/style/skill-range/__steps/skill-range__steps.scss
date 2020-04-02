@@ -1,0 +1,129 @@
+.skill-range__steps {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    .skill__range-step1 {
+        width: 25%;
+        height: 100%;
+
+        .skill-range__name {
+            position: absolute;
+            width: 100%;
+            bottom: 25px;
+            left: 0;
+            margin: 0;
+            font-family: Roboto-Light;
+            font-size: $font-14;
+            color: $color-black;
+
+            @include phone-size {
+                font-size: $font-10;
+            }
+        }
+
+        .skill-range__border {
+            margin-top: 4px;
+            margin-bottom: 6px;
+            height: 17px;
+            border-left: 1px dotted #B3B3B3;
+        }
+    }
+
+    .skill__range-step2 {
+        width: 25%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .skill-range__name {
+            position: absolute;
+            width: 100%;
+            max-width: 121px;
+            bottom: 25px;
+            left: 0;
+            margin: 0;
+            font-family: Roboto-Light;
+            font-size: $font-14;
+            color: $color-black;
+
+            @include phone-size {
+                font-size: $font-10;
+            }
+        }
+
+        .skill-range__border {
+            margin-top: 4px;
+            margin-bottom: 6px;
+            height: 17px;
+            border-left: 1px dotted #B3B3B3;
+        }
+    }
+
+    .skill__range-step3 {
+        width: 25%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .skill-range__name {
+            position: absolute;
+            width: 100%;
+            max-width: 177px;
+            bottom: 25px;
+            margin: 0;
+            font-family: Roboto-Light;
+            font-size: $font-14;
+            color: $color-black;
+
+            @include phone-size {
+                font-size: $font-10;
+            }
+        }
+
+        .skill-range__border {
+            margin-top: 4px;
+            margin-top: 6px;
+            height: 17px;
+            border-left: 1px dotted #B3B3B3;
+        }
+
+    }
+
+    .skill__range-step4 {
+        width: 25%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .skill-range__name {
+            position: absolute;
+            width: 100%;
+            bottom: 25px;
+            margin: 0;
+            font-family: Roboto-Light;
+            font-size: $font-14;
+            color: $color-black;
+
+            @include phone-size {
+                font-size: $font-10;
+            }
+        }
+
+        .skill-range__border {
+            margin-top: 4px;
+            margin-top: 6px;
+            height: 17px;
+            border-right: 1px dotted #B3B3B3;
+        }
+    }
+
+
+}

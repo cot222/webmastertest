@@ -1,0 +1,13 @@
+.experience {
+    padding-left: 38px;
+    padding-right: 38px;
+
+    @include phone-size {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    @import "__title/exprerience__title.scss";
+    @import "__block/experience__block.scss";
+    @import "__item/experience__item.scss";
+}

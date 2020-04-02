@@ -1,0 +1,10 @@
+.experience__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+    @import "__block-left/experience__block-left.scss";
+    @import "__block-middle/experience__block-middle.scss";
+    @import "__block-right/experience__block-right.scss";
+}

@@ -1,0 +1,16 @@
+.skill-range__block {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .thumb {
+        width: 22px;
+        height: 25px;
+        background: url('../svg/cursor.svg');
+        position: absolute;
+        right: -11px;
+        bottom: -30px;
+        cursor: pointer;
+        z-index: 3;
+    }
+}

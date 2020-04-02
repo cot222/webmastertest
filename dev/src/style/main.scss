@@ -1,0 +1,41 @@
+html {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 7px;
+    margin: 0;
+    padding: 0;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg.jpg') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    outline: none;
+}
+
+.wrapper {
+    max-width: 768px;
+    margin: auto;
+    height: 100%;
+}
+
+.form {  
+    width: 100%;
+    min-height: 1000px;
+    height: 100%;
+    padding-top: 76px;
+    background: white;
+}
+
+// .active {
+//     display: block;
+// }

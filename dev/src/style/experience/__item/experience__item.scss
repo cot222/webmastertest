@@ -1,0 +1,14 @@
+.experience__item {
+    display: block;
+    position: relative;
+    padding-left: 33px;
+    margin-bottom: 17px;
+    font-family: Roboto-Light;
+    font-size: $font-16;
+    line-height: 19px;
+    cursor: pointer;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

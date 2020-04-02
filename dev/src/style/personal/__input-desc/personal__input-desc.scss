@@ -1,0 +1,21 @@
+.personal__input-desc {
+    display: none;
+    position: absolute;
+    top: 4px;
+    width: 100%;
+    text-align: center;
+
+    .personal__desc-text {
+        font-family: Roboto-Regular;
+        font-size: $font-14;
+        font-weight: normal;
+        text-align: center;
+        margin: 0;
+        color: $color-grey;
+    }
+
+    &.active {
+        display: block;
+    }
+
+}

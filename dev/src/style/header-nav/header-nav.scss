@@ -1,0 +1,30 @@
+.header-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    @include phone-size {
+        display: none;
+        flex-direction: column;
+        justify-self: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        &.active {
+            display: flex;
+            animation: showMenu .2s ease-in-out;
+        }
+
+        @keyframes showMenu {
+            from {
+                transform: translateY(-200px);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+    }
+
+    @import "__a/header-nav__a.scss";
+    @import "__item/header-nav__item.scss";
+}

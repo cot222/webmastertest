@@ -1,0 +1,8 @@
+.javascript {
+    @include phone-size {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    @import "__title/javascript__title.scss";
+}

@@ -1,0 +1,15 @@
+.personal {
+    padding-left: 124px;
+    padding-right: 124px;
+
+    @include phone-size {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    @import "__item/personal__item.scss";
+    @import "__input/personal__input.scss";
+    @import "__title/personal__title.scss";
+    @import "__select/personal__select.scss";
+    @import "__input-desc/personal__input-desc.scss";
+}

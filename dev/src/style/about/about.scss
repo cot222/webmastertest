@@ -1,0 +1,13 @@
+.about {
+    padding-left: 124px;
+    padding-right: 124px;
+
+    @include phone-size {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    @import "__desc/about__desc.scss";
+    @import "__title/about__title.scss";
+    @import "__text/about__text.scss";
+}

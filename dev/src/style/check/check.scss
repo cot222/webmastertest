@@ -1,0 +1,19 @@
+.check {
+    @import "__input/check__input.scss";
+    @import "__box/check__box.scss";
+
+    .check__input:checked + .check__box {
+        background-color: $color-blue;
+        background-image: url('../svg/arrow.svg');
+    }
+
+    .check__input:not(:checked) {
+        &:hover  + .check__box {
+            background-color: #E9EFFF;
+        }
+    }
+
+    .check__input:not(:checked) + .check__box {
+
+    }
+}
